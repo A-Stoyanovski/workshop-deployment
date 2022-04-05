@@ -84,13 +84,23 @@ WSGI_APPLICATION = 'workshop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '1123QwER',
-        'HOST': '127.0.0.1',
+        'NAME': 'd10neksf4dg0kq',
+        'USER': 'yelrjaauxgwajr',
+        'PASSWORD': '36cbb8b71956b02735b74f5c8f178d53b8f1a0ac334bbf1dd1bffa03eccd3bbe',
+        'HOST': 'ec2-34-247-72-29.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': '1123QwER',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
