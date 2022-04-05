@@ -1,2 +1,2 @@
 web: gunicorn --pythonpath workshop workshop.wsgi
-release: python workshop/manage.py migrate
+release: python manage.py migrate
